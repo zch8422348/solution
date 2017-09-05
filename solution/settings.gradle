@@ -1,0 +1,3 @@
+include ':app', ':navi', ':music'
+project(':navi').projectDir = new File('app-lib/navi')
+project(':music').projectDir = new File('app-lib/music')
